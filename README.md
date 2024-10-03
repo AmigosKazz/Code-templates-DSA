@@ -283,7 +283,8 @@ public int dfs(int node, int[][] graph) {
 
 ***Graph: DFS (iterative)***
 
-```javapublic int fn(int[][] graph) {
+```java
+public int fn(int[][] graph) {
     Stack<Integer> stack = new Stack<>();
     Set<Integer> seen = new HashSet<>();
     stack.push(START_NODE);
